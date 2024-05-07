@@ -1,0 +1,68 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+header > h1 {
+  text-align: center;
+}
+h1 {
+  margin-left: 50px;
+}
+
+section {
+  width: 800px;
+  height: 1000px;
+  background-image: linear-gradient(rgb(0, 255, 136), rgb(0, 70, 128));
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px #9c9c9c;
+
+  margin: auto;
+}
+
+p {
+  font-size: 25px;
+  margin-left: 50px;
+}
+
+input {
+  width: 350px;
+  height: 25px;
+}
+
+.caixasTexto {
+  margin-left: 10px;
+}
+
+.caixinhasAtributos {
+  width: 100px;
+  margin-left: 15px;
+}
+
+td {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 600px) {
+  section {
+    width: 400px;
+  }
+
+  input {
+    width: 200px;
+    height: 25px;
+  }
+
+  .caixasTexto {
+    margin-left: 10px;
+  }
+
+  .caixinhasAtributos {
+    width: 100px;
+    margin-left: 15px;
+  }
+}
